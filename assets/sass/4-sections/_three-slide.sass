@@ -1,13 +1,35 @@
 #three-slide
 	@include tile
+	height: 1200px
 
 	.wrapper
 		@include wrapper
+  		
+		flex-direction: column
+		margin: 120px auto 60px auto
+
+		.blurb
+			width: 100%
+				
+			&:after
+				content: ""
+				display: inline-block
+				width: 1px
+				height: 70px
+				background-color: $black
+
+			h2
+				@include heading
+				
+			p
+				max-width: 100%
+				margin-bottom: 30px
+			
 	
 		.slider
 			position: relative
 			width: calc(100% - 60px)
-			height: 100%
+			height: 50%
 			margin: 0 auto
 			padding: 0
 			list-style: none
@@ -22,7 +44,7 @@
 				position: absolute
 				top: 50%
 				transform: translateY(-50%)
-				width: 40%
+				width: 25%
 				opacity: 0
 				
 				@media (max-width: 900px)
@@ -33,17 +55,17 @@
 			
 			.back
 				left: 0
-				opacity: 1
+				opacity: 0.5
 				
 			.current
 				left: 50%
-				transform: translate(-50%, -50%) scale(1.3)
+				transform: translate(-50%, -50%) scale(1.4)
 				opacity: 1
 				z-index: 10
 				
 			.front
 				right: 0
-				opacity: 1
+				opacity: 0.5
 				
 			@media (max-width: 767px)
 				width: calc(100% - 30px)

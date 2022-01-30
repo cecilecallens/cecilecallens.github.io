@@ -1,6 +1,6 @@
 #full-slide
 	@include tile
-	
+
 	.banner
 		position: relative
 		width: 100%
@@ -11,13 +11,13 @@
 		
 		li
 			position: absolute
-			top: 0
+			top: 30px
 			left: 0
 			right: 0
-			bottom: 0
+			bottom: 30px
 			background:
 				position: center
-				size: cover
+				size: contain
 				repeat: no-repeat
 			opacity: 0
 			transition: opacity .6s ease-in-out
@@ -27,13 +27,25 @@
 				transition: opacity .6s ease-in-out
 		
 		li:nth-child(1)
-			background-image: url('../img/full-slide/thumb-1.jpg')
+			background-image: url('../img/full-slide/slide1.jpg')
 			
 		li:nth-child(2)
-			background-image: url('../img/full-slide/thumb-2.jpg')
+			background-image: url('../img/full-slide/slide2.jpg')
 			
 		li:nth-child(3)
-			background-image: url('../img/full-slide/thumb-3.jpg')
+			background-image: url('../img/full-slide/slide3.jpg')
+
+		li:nth-child(4)
+			background-image: url('../img/full-slide/slide4.jpg')
+			
+		li:nth-child(5)
+			background-image: url('../img/full-slide/slide5.jpg')
+			
+		li:nth-child(6)
+			background-image: url('../img/full-slide/slide6.jpg')
+
+		li:nth-child(7)
+			background-image: url('../img/full-slide/slide7.jpg')
 					
 	i
 		position: absolute

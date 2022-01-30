@@ -21,21 +21,23 @@ html(lang="en")
 			.wrapper
 				.welcome
 					h1 #[strong Cécile] Callens
-					p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex.
-				.photographer
-					img(src="assets/img/hero.png" alt="Photographer")
-		section(id="about")
+					p Mon enfance passée en Afrique, puis en Corse, mes nombreux voyages m'ont toujours conduit à vouloir reproduire sur une feuille de dessin ou quelconque support, les couleurs qui s'offraient à ma vue.<br />Les pastels ont d'abord eu ma préférence, pour ensuite laisser place aux tubes pigmentés de diverses couleurs
+					p C'est à l'âge de vingt ans, suite à ma rencontre avec l'artiste peintre PAJO et grâce à son enseignement, que j'ai réellement commencé à peindre, d'abord dans son atelier, puis ensuite seule.
+					p Ma peinture le plus souvent abstraite se décline de couleurs qui représentent la caractéristique incontournable de mes créations.<br />J'aime travailler les fondus pour faire rejaillir la lumière dans mes toiles, et c'est au travers des teintes bleues et ocres que je m'exprime le plus aisément; Ce faisant, je voyage à travers le temps et l'espace...
+					p Un de mes domaines de prédilection est celui de la préhistoire ou tel l'un des premiers habitants de notre planète, j' ai découvert le pouvoir des couleurs et celui de l'exprimer;<br />Le grand écrivain Joseph Joffo (auteur du best seller un sac de billes), devenu mon ami, l'avait très bien compris et m'avait conseillé de ne peindre que des toiles ocres.<br />Il s'est d'ailleurs amusé à écrire une pensée sur l'une d'entre elle qu'il aimait tout particulièrement;
+					p Je vous invite à découvrir la femme que je suis, au travers mon univers pictural, de mes ressentis, de mes émotions, et par la rencontre du rêve et de l'imagination.
+				.artist
+					img(src="assets/img/artist.jpg" alt="Cécile Callens")
+	
+
+		section(id="featured")
 			.wrapper
-				.camera
-					img(src="assets/img/camera.png" alt="Camera")
 				.blurb
-					h2 My name is #[strong Apollo]
-					p Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.#[br]#[br]Ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
-					.social
-						a(href="#") #[i(class="icon-facebook")]
-						a(href="#") #[i(class="icon-instagram")]
-						a(href="#") #[i(class="icon-twitter")]
-						a(href="#") #[i(class="icon-pinterest-p")]
+					h2 #[strong En avant]
+					p Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+				.featured
+					img(src="assets/img/featured.jpg" alt="Featured")
+		
 		section(id="full-slide")
 			ul(class="banner")
 				li(class="active")
@@ -43,38 +45,36 @@ html(lang="en")
 				li
 			i(class="icon-chevron-thin-left prev")
 			i(class="icon-chevron-thin-right next")
-		section(id="featured")
-			.wrapper
-				.blurb
-					h2 #[strong Ut enim] ad minim
-					p Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
-				.featured
-					img(src="assets/img/featured.jpg" alt="Featured")
+
 		section(id="three-slide")
 			.wrapper
+				.blurb
+					h2 #[strong Expositions]
+					p Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.#[br]#[br]Ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+
 				ul(class="slider")
 					li(class="back")
-						img(src="assets/img/three-slide/thumb-1.jpg")
+						img(src="assets/img/three-slide/expo1.jpg")
 					li(class="current")
-						img(src="assets/img/three-slide/thumb-2.jpg")
+						img(src="assets/img/three-slide/expo2.jpg")
 					li(class="front")
-						img(src="assets/img/three-slide/thumb-3.jpg")
-					li
-						img(src="assets/img/three-slide/thumb-4.jpg")
+						img(src="assets/img/three-slide/expo3.jpg")
 			i(class="icon-chevron-thin-left prev")
 			i(class="icon-chevron-thin-right next")
-		section(id="contact")
-			.wrapper
-				.blurb
-					h2 #[strong Say] Hello
-					p Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
-				form
-					input(type="email" placeholder="Your Email")
-					input(type="text" placeholder="Subject")
-					textarea(placeholder="Message")
-					input(type="submit" value="Send Message")
-			p(class="copyright") &copy; Cécile Callens 2022
 				
+		section(id="about")
+			.wrapper
+				.brush
+					img(src="assets/img/brush.png" alt="Brush")
+				.blurb
+					h2 Me #[strong contacter]
+					p Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.#[br]#[br]Ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+					.social
+						a(href="#") #[i(class="icon-facebook")]
+						a(href="#") #[i(class="icon-instagram")]
+						a(href="#") #[i(class="icon-twitter")]
+						a(href="#") #[i(class="icon-pinterest-p")]
+
 		script(src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js")
 		script window.jQuery || document.write('<script src="assets/js/vendor/jquery-2.2.4.min.js"><\/script>')
 		script(src="assets/js/functions-min.js")

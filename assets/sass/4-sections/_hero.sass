@@ -1,5 +1,6 @@
 #hero
 	@include tile
+	height: 1200px
 		
 	header
 		position: absolute
@@ -46,7 +47,7 @@
 		@include wrapper
 			
 		.welcome
-			width: 45%
+			width: 55%
 		
 			&:after
 				content: ""
@@ -69,15 +70,14 @@
 				p
 					margin-bottom: 0
 				
-		.photographer
-			width: 55%
-			align-self: flex-end
+		.artist
+			width: 45%
 			line-height: 0
 			
 			img
 				width: 100%
-				opacity: .95
-				
+				opacity: 1
+
 		@media (max-width: 1023px)
 			.welcome
 				display: flex
@@ -86,7 +86,7 @@
 				align-items: flex-end
 				text-align: right
 				
-			.photographer
+			.artist
 				display: none
 				
 		@media (max-width: 640px)
