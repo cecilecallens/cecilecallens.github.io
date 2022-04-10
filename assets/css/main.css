@@ -849,7 +849,7 @@ svg path {
   width: 35%;
 }
 #featured .wrapper .featured img {
-  width: 100%;
+  width: 90%;
 }
 @media (max-width: 1023px) {
   #featured .wrapper .blurb {
