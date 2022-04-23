@@ -1,6 +1,7 @@
 #full-slide-ocre
 	@include tile
-	height: 800px
+	height: 900px
+
 
 	.wrapper
 		@include wrapper
@@ -42,6 +43,14 @@
 				&.active
 					opacity: 1
 					transition: opacity .6s ease-in-out
+
+				.title
+					text-align: center
+					max-width: 100%
+					position: absolute
+					bottom: -80px
+					left: 0
+					right: 0
 			
 			li:nth-child(1)
 				background-image: url('../img/full-slide/ocre/4.jpg')

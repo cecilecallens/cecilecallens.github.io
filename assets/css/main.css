@@ -706,7 +706,7 @@ svg path {
   margin: 30px auto;
   background-color: #efefef;
   overflow: hidden;
-  height: 800px;
+  height: 900px;
 }
 @media (max-width: 768px) {
   #full-slide-ocre {
@@ -768,6 +768,14 @@ svg path {
   opacity: 1;
   transition: opacity 0.6s ease-in-out;
 }
+#full-slide-ocre .wrapper .banner li .title {
+  text-align: center;
+  max-width: 100%;
+  position: absolute;
+  bottom: -80px;
+  left: 0;
+  right: 0;
+}
 #full-slide-ocre .wrapper .banner li:nth-child(1) {
   background-image: url("../img/full-slide/ocre/4.jpg");
 }
@@ -826,7 +834,7 @@ svg path {
   margin: 30px auto;
   background-color: #efefef;
   overflow: hidden;
-  height: 800px;
+  height: 900px;
 }
 @media (max-width: 768px) {
   #full-slide-bleu {
@@ -887,6 +895,14 @@ svg path {
 #full-slide-bleu .wrapper .banner li.active {
   opacity: 1;
   transition: opacity 0.6s ease-in-out;
+}
+#full-slide-bleu .wrapper .banner li .title {
+  text-align: center;
+  max-width: 100%;
+  position: absolute;
+  bottom: -80px;
+  left: 0;
+  right: 0;
 }
 #full-slide-bleu .wrapper .banner li:nth-child(1) {
   background-image: url("../img/full-slide/bleu/0.jpg");
@@ -952,7 +968,7 @@ svg path {
   margin: 30px auto;
   background-color: #efefef;
   overflow: hidden;
-  height: 800px;
+  height: 900px;
 }
 @media (max-width: 768px) {
   #full-slide-rouge {
@@ -1014,6 +1030,14 @@ svg path {
   opacity: 1;
   transition: opacity 0.6s ease-in-out;
 }
+#full-slide-rouge .wrapper .banner li .title {
+  text-align: center;
+  max-width: 100%;
+  position: absolute;
+  bottom: -80px;
+  left: 0;
+  right: 0;
+}
 #full-slide-rouge .wrapper .banner li:nth-child(1) {
   background-image: url("../img/full-slide/rouge/9.jpg");
 }
@@ -1063,7 +1087,7 @@ svg path {
   margin: 30px auto;
   background-color: #efefef;
   overflow: hidden;
-  height: 800px;
+  height: 900px;
 }
 @media (max-width: 768px) {
   #full-slide-vert {
@@ -1125,20 +1149,28 @@ svg path {
   opacity: 1;
   transition: opacity 0.6s ease-in-out;
 }
+#full-slide-vert .wrapper .banner li .title {
+  text-align: center;
+  max-width: 100%;
+  position: absolute;
+  bottom: -80px;
+  left: 0;
+  right: 0;
+}
 #full-slide-vert .wrapper .banner li:nth-child(1) {
   background-image: url("../img/full-slide/vert/1.jpg");
 }
 #full-slide-vert .wrapper .banner li:nth-child(2) {
-  background-image: url("../img/full-slide/vert/3.jpg");
-}
-#full-slide-vert .wrapper .banner li:nth-child(3) {
   background-image: url("../img/full-slide/vert/5.jpg");
 }
-#full-slide-vert .wrapper .banner li:nth-child(4) {
+#full-slide-vert .wrapper .banner li:nth-child(3) {
   background-image: url("../img/full-slide/vert/11.jpg");
 }
-#full-slide-vert .wrapper .banner li:nth-child(5) {
+#full-slide-vert .wrapper .banner li:nth-child(4) {
   background-image: url("../img/full-slide/vert/12.jpg");
+}
+#full-slide-vert .wrapper .banner li:nth-child(5) {
+  background-image: url("../img/full-slide/vert/3.jpg");
 }
 #full-slide-vert i {
   position: absolute;
@@ -1186,7 +1218,7 @@ svg path {
   margin: 30px auto;
   background-color: #efefef;
   overflow: hidden;
-  height: 800px;
+  height: 900px;
 }
 @media (max-width: 768px) {
   #full-slide-jaune {
@@ -1248,6 +1280,14 @@ svg path {
   opacity: 1;
   transition: opacity 0.6s ease-in-out;
 }
+#full-slide-jaune .wrapper .banner li .title {
+  text-align: center;
+  max-width: 100%;
+  position: absolute;
+  bottom: -80px;
+  left: 0;
+  right: 0;
+}
 #full-slide-jaune .wrapper .banner li:nth-child(1) {
   background-image: url("../img/full-slide/jaune/10.jpg");
 }
@@ -1303,7 +1343,7 @@ svg path {
   margin: 30px auto;
   background-color: #efefef;
   overflow: hidden;
-  height: 800px;
+  height: 900px;
 }
 @media (max-width: 768px) {
   #full-slide-autre {
@@ -1365,17 +1405,16 @@ svg path {
   opacity: 1;
   transition: opacity 0.6s ease-in-out;
 }
+#full-slide-autre .wrapper .banner li .title {
+  text-align: center;
+  max-width: 100%;
+  position: absolute;
+  bottom: -80px;
+  left: 0;
+  right: 0;
+}
 #full-slide-autre .wrapper .banner li:nth-child(1) {
-  background-image: url("../img/full-slide/ocre/4.jpg");
-}
-#full-slide-autre .wrapper .banner li:nth-child(2) {
-  background-image: url("../img/full-slide/ocre/6.jpg");
-}
-#full-slide-autre .wrapper .banner li:nth-child(3) {
-  background-image: url("../img/full-slide/ocre/8.jpg");
-}
-#full-slide-autre .wrapper .banner li:nth-child(4) {
-  background-image: url("../img/full-slide/ocre/18.jpg");
+  background-image: url("../img/full-slide/autres/2.jpg");
 }
 #full-slide-autre i {
   position: absolute;
