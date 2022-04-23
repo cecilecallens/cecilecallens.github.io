@@ -1,35 +1,61 @@
 #full-slide-autre
 	@include tile
+	height: 800px
 
-	.banner
-		position: relative
-		width: 100%
-		height: 100%
-		margin: 0
-		padding: 0
-		list-style: none
-		
-		li
-			position: absolute
-			top: 30px
-			left: 0
-			right: 0
-			bottom: 30px
-			background:
-				position: center
-				size: contain
-				repeat: no-repeat
-			opacity: 0
-			transition: opacity .6s ease-in-out
+	.wrapper
+		@include wrapper
+  		
+		flex-direction: column
+		margin: 120px auto 60px auto
+
+		.blurb
+			width: 100%
+
+			h2
+				@include heading
+				
+			p
+				max-width: 100%
+				margin-bottom: 30px
+
+		.banner
+			position: relative
+			width: 100%
+			height: 70%
+			margin: 0
+			padding: 0
+			list-style: none
 			
-			&.active
-				opacity: 1
+			li
+				position: absolute
+				top: 30px
+				left: 0
+				right: 0
+				bottom: 30px
+				background:
+					position: center
+					size: contain
+					repeat: no-repeat
+				opacity: 0
 				transition: opacity .6s ease-in-out
-		
-		li:nth-child(1)
-			background-image: url('../img/full-slide/autres/2.jpg')
+				
+				&.active
+					opacity: 1
+					transition: opacity .6s ease-in-out
 			
+			li:nth-child(1)
+				background-image: url('../img/full-slide/ocre/4.jpg')
+				
+			li:nth-child(2)
+				background-image: url('../img/full-slide/ocre/6.jpg')
+				
+			li:nth-child(3)
+				background-image: url('../img/full-slide/ocre/8.jpg')
 
+			li:nth-child(4)
+				background-image: url('../img/full-slide/ocre/18.jpg')
+				
+						
 	i
 		position: absolute
 		top: 50%
@@ -65,4 +91,4 @@
 			
 		.next
 			right: 0
-			
+				
