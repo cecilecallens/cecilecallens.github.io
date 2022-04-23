@@ -40,13 +40,57 @@ html(lang="en")
 				.featured
 					img(src="assets/img/featured.jpeg" alt="Featured")
 		
-		section(id="full-slide")
+		section(id="full-slide-ocre")
+			ul(class="banner")
+				li(class="active")
+				li
+				li
+				li
+			i(class="icon-chevron-thin-left prev")
+			i(class="icon-chevron-thin-right next")
+
+		section(id="full-slide-bleu")
+			ul(class="banner")
+				li(class="active")
+				li
+				li
+				li
+				li 
+				li
+			i(class="icon-chevron-thin-left prev")
+			i(class="icon-chevron-thin-right next")
+
+		section(id="full-slide-vert")
+			ul(class="banner")
+				li(class="active")
+				li
+				li
+				li
+				li
+			i(class="icon-chevron-thin-left prev")
+			i(class="icon-chevron-thin-right next")
+
+
+		section(id="full-slide-jaune")
 			ul(class="banner")
 				li(class="active")
 				li
 				li
 			i(class="icon-chevron-thin-left prev")
 			i(class="icon-chevron-thin-right next")
+
+
+		section(id="full-slide-rouge")
+			ul(class="banner")
+				li(class="active")
+			//- i(class="icon-chevron-thin-left prev")
+			//- i(class="icon-chevron-thin-right next")
+		
+		section(id="full-slide-autre")
+			ul(class="banner")
+				li(class="active")
+			//- i(class="icon-chevron-thin-left prev")
+			//- i(class="icon-chevron-thin-right next")
 
 		section(id="three-slide")
 			.wrapper
@@ -81,4 +125,4 @@ html(lang="en")
 
 		script(src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js")
 		script window.jQuery || document.write('<script src="assets/js/vendor/jquery-2.2.4.min.js"><\/script>')
-		script(src="assets/js/functions-min.js")
+		script(src="assets/js/functions.js") // TODO replace by min
