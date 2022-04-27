@@ -788,6 +788,9 @@ svg path {
 #full-slide-ocre .wrapper .banner li:nth-child(4) {
   background-image: url("../img/full-slide/ocre/18.jpg");
 }
+#full-slide-ocre .wrapper .banner li:nth-child(5) {
+  background-image: url("../img/full-slide/ocre/21.jpg");
+}
 #full-slide-ocre i {
   position: absolute;
   top: 50%;
@@ -921,6 +924,12 @@ svg path {
 }
 #full-slide-bleu .wrapper .banner li:nth-child(6) {
   background-image: url("../img/full-slide/bleu/17.jpg");
+}
+#full-slide-bleu .wrapper .banner li:nth-child(7) {
+  background-image: url("../img/full-slide/bleu/19.jpg");
+}
+#full-slide-bleu .wrapper .banner li:nth-child(8) {
+  background-image: url("../img/full-slide/bleu/20.jpg");
 }
 #full-slide-bleu i {
   position: absolute;
@@ -1296,6 +1305,9 @@ svg path {
 }
 #full-slide-jaune .wrapper .banner li:nth-child(3) {
   background-image: url("../img/full-slide/jaune/15.jpg");
+}
+#full-slide-jaune .wrapper .banner li:nth-child(4) {
+  background-image: url("../img/full-slide/jaune/22.jpg");
 }
 #full-slide-jaune i {
   position: absolute;
