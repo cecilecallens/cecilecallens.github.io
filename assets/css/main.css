@@ -653,6 +653,13 @@ svg path {
 #about .wrapper .blurb p {
   max-width: 600px;
   margin-bottom: 45px;
+  font-weight: bold;
+  font-size: 18px;
+}
+#about .wrapper .blurb p a {
+  color: #111;
+  text-decoration: none;
+  font-weight: normal;
 }
 #about .wrapper .blurb .social {
   display: flex;
