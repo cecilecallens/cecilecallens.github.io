@@ -229,6 +229,40 @@ function fullSlider(){
 		
 	});
 
+	$('#full-slide-noirblanc .prev, #full-slide-noirblanc .next').click(function(){
+
+		var $this = $(this),
+				current = $('#full-slide-noirblanc .banner').find('.active'),
+				position = $('#full-slide-noirblanc .banner').children().index(current),
+				totalPics = $('#full-slide-noirblanc .banner').children().length;
+
+		if ($this.hasClass('next')){
+			
+			if (position < totalPics - 1){
+				$('#full-slide-noirblanc .active').removeClass('active').next().addClass('active');
+			}
+			
+			else {	
+				$('#full-slide-noirblanc .banner li').removeClass('active').first().addClass('active');
+			}
+			
+		}
+		
+		else {
+			
+			if (position === 0){
+				$('#full-slide-noirblanc .banner li').removeClass('active').last().addClass('active');
+			}
+			
+			else {
+				$('#full-slide-noirblanc .active').removeClass('active').prev().addClass('active');
+			}
+			
+		}
+		
+	});
+
+
 
 
 
