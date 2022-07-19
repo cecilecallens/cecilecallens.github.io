@@ -1281,6 +1281,9 @@ svg path {
 #full-slide-vert .wrapper .banner li:nth-child(7) {
   background-image: url("../img/full-slide/bleu/47.jpg");
 }
+#full-slide-vert .wrapper .banner li:nth-child(8) {
+  background-image: url("../img/full-slide/vert/69.jpg");
+}
 #full-slide-vert i {
   position: absolute;
   top: 50%;
