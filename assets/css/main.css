@@ -1427,6 +1427,9 @@ svg path {
 #full-slide-jaune .wrapper .banner li:nth-child(15) {
   background-image: url("../img/full-slide/jaune/48.jpg");
 }
+#full-slide-jaune .wrapper .banner li:nth-child(16) {
+  background-image: url("../img/full-slide/jaune/61.jpg");
+}
 #full-slide-jaune i {
   position: absolute;
   top: 50%;
