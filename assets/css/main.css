@@ -1710,6 +1710,9 @@ svg path {
 #full-slide-noirblanc .wrapper .banner li:nth-child(5) {
   background-image: url("../img/full-slide/noirblanc/72.jpg");
 }
+#full-slide-noirblanc .wrapper .banner li:nth-child(6) {
+  background-image: url("../img/full-slide/noirblanc/73.jpg");
+}
 #full-slide-noirblanc i {
   position: absolute;
   top: 50%;
