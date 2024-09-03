@@ -1,0 +1,108 @@
+#full-slide-gris
+	@include tile
+	height: 900px
+
+
+	.wrapper
+		@include wrapper
+  		
+		flex-direction: column
+		margin: 120px auto 60px auto
+
+		.blurb
+			width: 100%
+
+			h2
+				@include heading
+				
+			p
+				max-width: 100%
+				margin-bottom: 30px
+
+		.banner
+			position: relative
+			width: 100%
+			height: 70%
+			margin: 0
+			padding: 0
+			list-style: none
+			
+			li
+				position: absolute
+				top: 30px
+				left: 0
+				right: 0
+				bottom: 30px
+				background:
+					position: center
+					size: contain
+					repeat: no-repeat
+				opacity: 0
+				transition: opacity .6s ease-in-out
+				
+				&.active
+					opacity: 1
+					transition: opacity .6s ease-in-out
+
+				.title
+					text-align: center
+					max-width: 100%
+					position: absolute
+					bottom: -80px
+					left: 0
+					right: 0
+			
+			li:nth-child(1)
+				background-image: url('../img/full-slide/gris/82.jpg')
+
+			li:nth-child(2)
+				background-image: url('../img/full-slide/gris/83.jpg')
+
+			li:nth-child(3)
+				background-image: url('../img/full-slide/gris/84.jpg')
+
+			li:nth-child(4)
+				background-image: url('../img/full-slide/gris/85.jpg')
+
+			li:nth-child(5)
+				background-image: url('../img/full-slide/gris/86.jpg')
+
+			
+				
+						
+	i
+		position: absolute
+		top: 50%
+		transform: translateY(-50%) scale(1)
+		width: 60px
+		height: 60px
+		font-size: 28px
+		text-align: center
+		line-height: 60px
+		background-color: $white
+		cursor: pointer
+		z-index: 10
+		transition: all .2s ease-in-out
+		
+		&:hover
+			transform: translateY(-50%) scale(1.1)
+		
+	.prev
+		left: 30px
+		
+	.next
+		right: 30px
+		
+	@media (max-width: 767px)
+		i
+			transform: translateY(-50%) scale(.7)
+			
+			&:hover
+				transform: translateY(-50%) scale(.8)
+				
+		.prev
+			left: 0
+			
+		.next
+			right: 0
+				
