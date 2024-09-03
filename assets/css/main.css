@@ -1711,18 +1711,21 @@ svg path {
   right: 0;
 }
 #full-slide-gris .wrapper .banner li:nth-child(1) {
-  background-image: url("../img/full-slide/gris/82.jpg");
+  background-image: url("../img/full-slide/gris/79.jpg");
 }
 #full-slide-gris .wrapper .banner li:nth-child(2) {
-  background-image: url("../img/full-slide/gris/83.jpg");
+  background-image: url("../img/full-slide/gris/82.jpg");
 }
 #full-slide-gris .wrapper .banner li:nth-child(3) {
-  background-image: url("../img/full-slide/gris/84.jpg");
+  background-image: url("../img/full-slide/gris/83.jpg");
 }
 #full-slide-gris .wrapper .banner li:nth-child(4) {
-  background-image: url("../img/full-slide/gris/85.jpg");
+  background-image: url("../img/full-slide/gris/84.jpg");
 }
 #full-slide-gris .wrapper .banner li:nth-child(5) {
+  background-image: url("../img/full-slide/gris/85.jpg");
+}
+#full-slide-gris .wrapper .banner li:nth-child(6) {
   background-image: url("../img/full-slide/gris/86.jpg");
 }
 #full-slide-gris i {
