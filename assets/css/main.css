@@ -816,6 +816,15 @@ svg path {
 #full-slide-ocre .wrapper .banner li:nth-child(11) {
   background-image: url("../img/full-slide/ocre/67.jpg");
 }
+#full-slide-ocre .wrapper .banner li:nth-child(12) {
+  background-image: url("../img/full-slide/ocre/74.jpg");
+}
+#full-slide-ocre .wrapper .banner li:nth-child(13) {
+  background-image: url("../img/full-slide/ocre/75.jpg");
+}
+#full-slide-ocre .wrapper .banner li:nth-child(14) {
+  background-image: url("../img/full-slide/ocre/76.jpg");
+}
 #full-slide-ocre i {
   position: absolute;
   top: 50%;
