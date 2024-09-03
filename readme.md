@@ -1,3 +1,3 @@
 # Useful commands 
 `sass --watch sass:css`
-`jade --watch index.jade`
+`pug --watch index.pug`
