@@ -395,11 +395,11 @@ svg path {
 
 @media (max-width: 640px) {
   #hero svg,
-#about svg,
-#featured svg,
-#three-slide svg,
-#full-slide svg,
-#contact svg {
+  #about svg,
+  #featured svg,
+  #three-slide svg,
+  #full-slide svg,
+  #contact svg {
     left: 0;
   }
 }
@@ -1936,7 +1936,7 @@ svg path {
     width: 75%;
   }
   #three-slide .wrapper .slider .back,
-#three-slide .wrapper .slider .front {
+  #three-slide .wrapper .slider .front {
     display: none;
   }
 }
@@ -2078,7 +2078,7 @@ svg path {
 }
 @media (max-width: 640px) {
   #contact .wrapper form input[type=email],
-#contact .wrapper form input[type=text] {
+  #contact .wrapper form input[type=text] {
     width: 100%;
     margin-bottom: 10px;
   }
