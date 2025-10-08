@@ -465,7 +465,7 @@ svg path {
   transition: background-color 0.2s ease-in-out;
 }
 .nav li a:hover {
-  background-color: #dbdbdb;
+  background-color: rgb(219.35, 219.35, 219.35);
 }
 
 #hero {
@@ -476,12 +476,14 @@ svg path {
   margin: 30px auto;
   background-color: #efefef;
   overflow: hidden;
-  height: 1200px;
 }
 @media (max-width: 768px) {
   #hero {
     margin: 15px auto;
   }
+}
+#hero {
+  height: 1200px;
 }
 #hero header {
   position: absolute;
@@ -713,12 +715,14 @@ svg path {
   margin: 30px auto;
   background-color: #efefef;
   overflow: hidden;
-  height: 900px;
 }
 @media (max-width: 768px) {
   #full-slide-ocre {
     margin: 15px auto;
   }
+}
+#full-slide-ocre {
+  height: 900px;
 }
 #full-slide-ocre .wrapper {
   position: relative;
@@ -871,12 +875,14 @@ svg path {
   margin: 30px auto;
   background-color: #efefef;
   overflow: hidden;
-  height: 900px;
 }
 @media (max-width: 768px) {
   #full-slide-bleu {
     margin: 15px auto;
   }
+}
+#full-slide-bleu {
+  height: 900px;
 }
 #full-slide-bleu .wrapper {
   position: relative;
@@ -1086,12 +1092,14 @@ svg path {
   margin: 30px auto;
   background-color: #efefef;
   overflow: hidden;
-  height: 900px;
 }
 @media (max-width: 768px) {
   #full-slide-rouge {
     margin: 15px auto;
   }
+}
+#full-slide-rouge {
+  height: 900px;
 }
 #full-slide-rouge .wrapper {
   position: relative;
@@ -1214,12 +1222,14 @@ svg path {
   margin: 30px auto;
   background-color: #efefef;
   overflow: hidden;
-  height: 900px;
 }
 @media (max-width: 768px) {
   #full-slide-vert {
     margin: 15px auto;
   }
+}
+#full-slide-vert {
+  height: 900px;
 }
 #full-slide-vert .wrapper {
   position: relative;
@@ -1354,12 +1364,14 @@ svg path {
   margin: 30px auto;
   background-color: #efefef;
   overflow: hidden;
-  height: 900px;
 }
 @media (max-width: 768px) {
   #full-slide-jaune {
     margin: 15px auto;
   }
+}
+#full-slide-jaune {
+  height: 900px;
 }
 #full-slide-jaune .wrapper {
   position: relative;
@@ -1518,12 +1530,14 @@ svg path {
   margin: 30px auto;
   background-color: #efefef;
   overflow: hidden;
-  height: 900px;
 }
 @media (max-width: 768px) {
   #full-slide-autre {
     margin: 15px auto;
   }
+}
+#full-slide-autre {
+  height: 900px;
 }
 #full-slide-autre .wrapper {
   position: relative;
@@ -1649,12 +1663,14 @@ svg path {
   margin: 30px auto;
   background-color: #efefef;
   overflow: hidden;
-  height: 900px;
 }
 @media (max-width: 768px) {
   #full-slide-gris {
     margin: 15px auto;
   }
+}
+#full-slide-gris {
+  height: 900px;
 }
 #full-slide-gris .wrapper {
   position: relative;
@@ -1783,12 +1799,14 @@ svg path {
   margin: 30px auto;
   background-color: #efefef;
   overflow: hidden;
-  height: 900px;
 }
 @media (max-width: 768px) {
   #full-slide-noirblanc {
     margin: 15px auto;
   }
+}
+#full-slide-noirblanc {
+  height: 900px;
 }
 #full-slide-noirblanc .wrapper {
   position: relative;
@@ -1998,12 +2016,14 @@ svg path {
   margin: 30px auto;
   background-color: #efefef;
   overflow: hidden;
-  height: 1200px;
 }
 @media (max-width: 768px) {
   #three-slide {
     margin: 15px auto;
   }
+}
+#three-slide {
+  height: 1200px;
 }
 #three-slide .wrapper {
   position: relative;
